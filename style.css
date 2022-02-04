@@ -49,9 +49,9 @@ nav ul li:hover {
 
 /*Logo*/
 .logo-image{
-  display: block;
-  width: 30px;
-  height: 10px;
+  display:inline-block;
+  width: 20px;
+  height: 0px;
   border-radius: 50%;
   overflow: visible;
   margin-top: -6px;
