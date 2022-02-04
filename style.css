@@ -1,50 +1,160 @@
 * { 
-    padding: 0; /*Eliminamos los márgenes y paddings que el navegador agrega por defecto */
-    margin: 0;
-  }
-  p {
-    margin-bottom: 20px; /*Agregamos márgenes inferiores a los párrafos*/
-  }
-  .wrapper {
-    width: 80%;
-    margin: auto;
-    overflow:hidden;
-  }
-  header {
-    background: rgba(12,156,219,255); /*Color de fondo del menú de navegación*/
-    width: 100%; /*Hace que el menú ocupe todo el ancho*/
-    position: fixed; /*Hace que el menú de navegación quede fijo*/
-    z-index: 10; /*Decimos que el menú se muestre encima de los elementos como imágenes */
-  }
-  
-  nav {
-    /*float: left; /* Desplazamos el nav hacia la izquierda */
-    text-align: right;
-  }
-  nav ul {
-    list-style: none;
-    overflow: hidden; /* Limpiamos errores de float */
-  }
-  nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  nav ul li a {
-    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
-    padding: 30px;
-    color: #fff;
-    text-decoration: none;
-  }
-  nav ul li:hover {
-    background: #37c3ff;
-  }
-  .contenido {
-    padding-top: 80px; /*Corrección al problema de que al cargar la página el menú de navegación tape parte de la misma*/
-  }
+  padding: 0; /*Eliminamos los márgenes y paddings que el navegador agrega por defecto */
+  margin: 0;
+}
+p {
+  margin-bottom: 20px; /*Agregamos márgenes inferiores a los párrafos*/
+}
 
-  .remove-bg {
-    filter: brightness(1);
-    /*mix-blend-mode: multiply;*/
-  }
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
   
+header {
+  /*background: rgba(12,156,219,255); /*Color de fondo del menú de navegación*/
+  background: #91deff;
+  width: 100%; /*Hace que el menú ocupe todo el ancho*/
+  position: fixed; /*Hace que el menú de navegación quede fijo*/
+  z-index: 10; /*Decimos que el menú se muestre encima de los elementos como imágenes */
+}
+ 
+nav {
+  /*float: left; /* Desplazamos el nav hacia la izquierda */
+  text-align: left;
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 30px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+nav ul li:hover {
+    /*background: #37c3ff;*/
+    background: #5aceff
+  }
+.contenido {
+  padding-top: 80px; /*Corrección al problema de que al cargar la página el menú de navegación tape parte de la misma*/
+}
+
+/*Logo*/
+.logo-image{
+  display: block;
+  width: 30px;
+  height: 10px;
+  border-radius: 50%;
+  overflow: visible;
+  margin-top: -6px;
+}
+/*Para que los párrafos estén bien colocados*/
+.texto-justificado{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  padding-top: 150px;
+  overflow:hidden;
+  text-align: justify;
+}
+
+/*Body*/
+body{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*Tabla*/
+th, td {
+  width: 10%;
+  text-align: center;
+  vertical-align: center;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
+  caption-side: bottom;
+}
+
+th {
+  background: #91deff;
+}
+  
+table {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #000;
+  font-family: Arial, sans-serif;
+  border-spacing: 0.5rem;
+  border-collapse: collapse;
+}
+
+table tr:nth-child(1) {
+  background: #d2f2ff;
+}
+table tr:nth-child(4) {
+  background: #d2f2ff;
+}
+table tr:nth-child(9) {
+  background: #d2f2ff;
+}
+table tr:nth-child(18) {
+  background: #d2f2ff;
+}
+
+/*Imágenes de la página*/
+.datos-image{
+  display: block;
+  overflow: hidden;
+  margin-top: 80px;
+  padding-left: 80px
+}
+
+.imagen-fondo{
+  display: block;
+  width: 100%;
+  padding-left: -300px;
+  overflow:hidden;
+  text-align: justify;
+}
+
+/*Colocación de los diferentes elementos del formulario*/
+label{
+  width: 180px;
+  display: inline-block;
+}
+
+input{
+  width: 400px;
+  display: inline-block;
+}
+
+select{
+  width: 405px;
+  display: inline-block;
+}
+
+button{
+  width: 100px;
+  display: inline-block;
+}
+
+/*Footer*/
+footer{
+  background: #91deff;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+}
