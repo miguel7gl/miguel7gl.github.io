@@ -24,8 +24,8 @@ A continuación se van a explicar las diferentes páginas que conforman el site 
 
 Todas las páginas tienen en común los siguientes elementos:
 
--Una barra de navegación (< nav >) con la cuál te puedes desplazar por cada una de las páginas que conforman el site. En el se pueden encontrar el logo de la empresa y la pestaña Inicio (página principal), Conocenos (página con información acerca de la empresa), Principales datos (tabla con los principales datos de la empresa) y Contacto (formulario para contactar con la empresa)
--Un footer
+- Una barra de navegación (< nav >) con la cuál te puedes desplazar por cada una de las páginas que conforman el site. En el se pueden encontrar el logo de la empresa y la pestaña Inicio (página principal), Conocenos (página con información acerca de la empresa), Principales datos (tabla con los principales datos de la empresa) y Contacto (formulario para contactar con la empresa)
+- Un footer
 
 Además, se ha aplicado CSS para un mejor diseño de la misma.
 
