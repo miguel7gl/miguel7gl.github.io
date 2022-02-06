@@ -13,3 +13,7 @@ Además, se han agregado a la página los diferentes elementos explicados es cla
 - Tablas  
 - Multimedia  
 - Formularios Web
+
+
+
+![image](https://user-images.githubusercontent.com/81079746/152689278-13efb48e-2e16-480b-b7b6-2206980aac39.png)
