@@ -43,7 +43,7 @@ Se han utilizado headers, párrafos e imágenes.
 
 ## Principales Datos (principales-datos.html)
 
-Aquí se pueden ver los principales datos dde la empresa (balance, actividad, gestión de riesgo y liquidez).
+Aquí se pueden ver los principales datos de la empresa (balance, actividad, gestión de riesgo y liquidez).
 
 Para ello, se han utilizado un header, un párrafo y una tabla con toda la información.
 
