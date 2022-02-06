@@ -24,8 +24,13 @@ A continuación se van a explicar las diferentes páginas que conforman el site 
 
 Todas las páginas tienen en común los siguientes elementos:
 
+<<<<<<< HEAD
 - Una barra de navegación (< nav >) con la cuál te puedes desplazar por cada una de las páginas que conforman el site.
 - Un footer.
+=======
+- Una barra de navegación (< nav >) con la cuál te puedes desplazar por cada una de las páginas que conforman el site. En el se pueden encontrar el logo de la empresa y la pestaña Inicio (página principal), Conocenos (página con información acerca de la empresa), Principales datos (tabla con los principales datos de la empresa) y Contacto (formulario para contactar con la empresa)
+- Un footer
+>>>>>>> 4169018611bb75c5ea43ec2ba78864c1ad0bed83
 
 Además, se ha aplicado CSS para un mejor diseño de la misma.
 
@@ -35,6 +40,7 @@ Esta es la página de inicio. Además de los elementos comunes a todas las pági
 
 # Páginas secundarias
 
+<<<<<<< HEAD
 ## Conócenos (conocenos.html)
 
 En este apratado podrás ver un poco de información de la empresa (sobre nosotros, misión, visión y valores).
@@ -52,3 +58,6 @@ Para ello, se han utilizado un header, un párrafo y una tabla con toda la infor
 Por último, si se quiere contactar con la empresa solamente habrá que ir a está página y rellenar la información requerida.
 
 Se han utilizado un header, un párrafo y un form, además de un botón para registrar la petición.
+=======
+## Conócenos
+>>>>>>> 4169018611bb75c5ea43ec2ba78864c1ad0bed83
